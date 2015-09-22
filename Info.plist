@@ -13,8 +13,8 @@
 			<string>QLGenerator</string>
 			<key>LSItemContentTypes</key>
 			<array>
+				<string>public.3d-content</string>
 				<string>com.mesh.mesh</string>
-				<string>com.mesh.obj</string>
 				<string>com.mesh.off</string>
 				<string>com.mesh.ply</string>
 				<string>com.mesh.stl</string>
@@ -99,25 +99,6 @@
 				<key>public.filename-extension</key>
 				<array>
 					<string>mesh</string>
-				</array>
-			</dict>
-		</dict>
-		<dict>
-			<key>UTTypeConformsTo</key>
-			<array>
-				<string>public.data</string>
-			</array>
-			<key>UTTypeDescription</key>
-			<string>3D model format</string>
-			<key>UTTypeIdentifier</key>
-			<string>com.mesh.obj</string>
-			<key>UTTypeReferenceURL</key>
-			<string>http://en.wikipedia.org/wiki/Wavefront_.obj_file#File_format</string>
-			<key>UTTypeTagSpecification</key>
-			<dict>
-				<key>public.filename-extension</key>
-				<array>
-					<string>obj</string>
 				</array>
 			</dict>
 		</dict>
