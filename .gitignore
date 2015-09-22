@@ -1,28 +1,30 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
+# use glob syntax.
+syntax: glob
+scripts/change_name.sh
 *.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-
-# Compiled Static libraries
-*.lai
-*.la
+*.so.[0123456789]
+*.so.[0123456789].[0123456789]
+*.o
 *.a
-*.lib
-
-# Executables
+*.dylib
+*~
+*CMakeFiles*
+.DS_Store
+*tags
 *.exe
-*.out
-*.app
+*.pdb
+*.sdf
+*.suo
+*.ilk
+*.log
+*.tlog
+Debug/
+Release/
+*.orig
+*.user
+*.vsp
+*.opensdf
+*.psess
+*.swp
+*.swo
+*.pyc
