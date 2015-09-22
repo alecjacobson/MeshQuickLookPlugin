@@ -3,6 +3,12 @@ This will generate previews (selecting a file in Finder and hitting space) and
 thumbnails ("Cover flow" view in Finder) for .obj, .off and .mesh 3D model
 files.
 
+# Binary
+
+Included in this repository is a statically compiled, ready-to-use binary 
+
+# Build
+
 To build issue:
 
     make
@@ -16,9 +22,11 @@ To install issue:
 This will copy the directory ./Mesh.qlgenerator/ into /Library/QuickLook/ and
 reload the Quicklook Manager (so that you see your changes in Finder).
 
-= Dependencies =
+# Dependencies
 
-Install Mesa3D using macports. 
+This plugin depends heavily on [libigl](https://github.com/libigl/libigl/).
+
+Install Mesa3D using macports/homebrew.
 
     sudo port install mesa
 
