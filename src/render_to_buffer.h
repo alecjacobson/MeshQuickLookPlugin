@@ -1,5 +1,5 @@
 #define GL_GLEXT_PROTOTYPES
-#include <GL/osmesa.h>
+//#include <GL/osmesa.h>
 
 // Inputs:
 //   filename   path to mesh

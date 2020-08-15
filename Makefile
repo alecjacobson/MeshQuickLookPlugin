@@ -11,8 +11,9 @@ C=clang
 CXXFLAGS += -stdlib=libc++ -std=c++11
 
 #Be sure that libs aren't used
-LIBIGL=../../
+LIBIGL=/usr/local/libigl/
 LIBIGL_INC=-I$(LIBIGL)/include
+EIGEN3_INC=-I/usr/local/libigl/external/eigen
 
 # Do not use the GLU that comes with the macports Mesa:
 # http://www.alecjacobson.com/weblog/?p=2827
@@ -21,7 +22,7 @@ GLU_INC=-I$(GLU)/include
 #GLU_LIB=-L$(GLU)/lib -lGLU
 GLU_LIB=$(GLU)/lib/libGLU.a
 
-MESA=/opt/local/
+MESA=/usr/local/Cellar/mesalib-glw/8.0.0/
 MESA_INC=-I$(MESA)/include
 MESA_LIB=-L$(MESA)/lib -lOSMesa -lGL
 
