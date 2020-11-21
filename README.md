@@ -43,13 +43,13 @@ To build issue:
 
     make
 
-This will compile the source and build the application in ./Mesh.qlgenerator/
+This will compile the source and build the application in `./Mesh.qlgenerator/`
 
 To install issue:
 
     sudo make install
 
-This will copy the directory ./Mesh.qlgenerator/ into /Library/QuickLook/ and
+This will copy the directory `./Mesh.qlgenerator/` into `/Library/QuickLook/` and
 reload the Quicklook Manager (so that you see your changes in Finder).
 
 # Dependencies
